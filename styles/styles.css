@@ -1,0 +1,449 @@
+
+.header-wrapper {
+    padding: 25px 0;
+}
+.header-info {
+    color: #444444;
+}
+.header-info p {
+    margin:0; 
+    font-family: Arial;
+}
+
+.header-info h3 {
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 700;
+}
+
+.logo a img{
+    width: 100%;
+}
+
+.top-banner {
+    position: relative;
+    height: 140px;
+    width: 100%;
+    background-image: url("../images/top-banner.png");    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+.top-banner:after {
+    content: '';
+    background-image: url("../images/icon-ex.png");    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0;
+    position: absolute;
+    top: 0;
+    width: 120px;
+    height: 140px;
+}
+
+.top-banner h1 {
+    color: #fff;
+    padding-top: 35px;    
+    padding-bottom: 35px;
+    margin-bottom: 0px;
+    font-size: 56px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+}
+.top-banner h1 span {
+    color: #fee684;
+}
+
+.banner-container {
+    height: 820px;
+    width: 100%;
+    background-image: url("../images/banner.png");    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+}
+
+.banner-caption h3 {
+    color: #fff;
+    font-size: 4rem;
+}
+
+.banner-caption h1 {
+    color: #fee684;
+    font-size: 6rem;
+}
+
+.banner-caption {
+    padding-top: 190px;
+}
+
+
+.login-container {
+    right: 15%;
+    max-width: 28rem;
+    position: absolute;
+    top: 320px;
+    min-height: 40rem;
+    border-radius: 15px;
+    border: 0;
+}
+
+.login-container .card-header {
+    font-family: 'Oswald', sans-serif;
+    background: #1260a0;
+    color: #fff;
+    border-radius: 15px 15px 0 0;
+}
+.login-container .card-header h4 {
+    font-weight: 300;
+}
+.login-container .card-header h1 {
+    font-size: 3.5rem;
+}
+.login-container .card-footer {
+    background: #1260a0;
+    border-radius: 0 0 15px 15px;
+    padding: 5px;
+}
+
+.button-group {
+    width: 100%;
+}
+
+.btn-exp {
+    background: #ff9900;
+    color: #fff;
+    font-weight: 600;
+    min-width: 275px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-container {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.card-1  {
+    width: 283px;
+}
+.card-2  {
+    width: 345px;
+}
+.card-3  {
+    width: 404px;
+}
+.card-1 .text-wrap {
+    width: 90px;
+}
+.card-2 .text-wrap{
+    width: 150px;
+}
+.card-3 .text-wrap{
+    width: 205px;
+}
+.bg-img {
+    position: relative;
+    margin: 15px 0;
+}
+.bg-img .text-wrap {
+    font-size: 36px;
+    line-height: 3rem;
+    top: 60px;
+    right: 45px;
+    position: absolute;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+.bg-img .text-wrap p {
+    margin-bottom: 0;
+    font-weight: 100;
+}
+.bg-img .text-wrap p span.bold-800 {
+    font-weight: 800;
+}
+.body-container-1 {
+    font-family: 'Oswald', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.body-container-1 h1 {
+    color: #1360a0;
+    font-weight: 400;
+}
+.body-container-1 h1 span {
+    font-weight: 600;
+}
+.footer {
+    padding-top: 35px;
+    padding-block-end: 35px;
+    background: #1260a0;
+    color: #fff;
+}
+.footer p {
+    margin-bottom: 0;
+}
+.footer-img {
+    display: inline-block;
+    padding: 15px 0;
+}
+.footer .footer-info{
+    font-family: 'Oswald', sans-serif;
+    padding-top: 25px;
+    font-weight: 200;
+}
+
+
+.page-2 .btn:first-child {
+    margin: 0 25px 0 0;
+}
+.page-2 .btn:last-child {
+    margin: 0 0 0 25px;
+}
+
+.banner-2 {
+    padding-top: 60px;
+}
+
+.banner-2-container {
+    background: rgba(18, 96, 160, 0.9);
+    padding: 50px;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+.banner-2-container p {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+.text-yellow {    
+    color: #fee684;
+}
+.banner-2-btn-container {
+    width: 100%;
+}
+
+.banner-2-btn-container  .btn {
+    padding: 15px;
+    margin: 30px 15px;
+}
+
+
+/* *****************Timer************** */
+.countdown {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.countdown span:first-of-type {
+    margin-left: 0;
+}
+
+.countdown-circles {
+    font-size: 20px;    
+    font-family: 'Oswald', sans-serif;
+}
+
+.countdown-circles span {
+    width: 55px;
+    height: 75px;
+    border-radius: 15px;
+    /* background: rgba(255, 255, 255, 0.2); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#111111+1,111111+49,111111+49,000000+50,2c2c2c+50,1c1c1c+62,131313+100 */
+    background: #111111; /* Old browsers */
+    background: -moz-linear-gradient(top,  #111111 1%, #111111 49%, #111111 49%, #000000 50%, #2c2c2c 50%, #1c1c1c 62%, #131313 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #111111 1%,#111111 49%,#111111 49%,#000000 50%,#2c2c2c 50%,#1c1c1c 62%,#131313 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #111111 1%,#111111 49%,#111111 49%,#000000 50%,#2c2c2c 50%,#1c1c1c 62%,#131313 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#111111', endColorstr='#131313',GradientType=0 ); /* IE6-9 */
+
+}
+.countdown-circles span:first-of-type {
+    margin-left: 0;
+}
+.timer {    
+    z-index: 2;
+    position: relative;
+}
+
+
+/* ========================Tab====================== */
+@media (max-width: 1024px) {
+    .top-banner h1 {
+        font-size: 48px;
+    }
+
+    .login-container {
+        right: 5%;
+    }
+}
+
+/* ========================Tab====================== */
+@media (max-width: 992px) {
+    .top-banner h1 {
+        font-size: 26px;
+        padding-top: 53px;
+        padding-bottom: 53px;
+    }   
+
+    .login-container {
+        position: static;
+        min-height: 40rem;
+        border-radius: 15px;
+        border: 1px solid #1360a0;
+        margin: 15px auto;
+        float: none;
+    }
+
+    .banner-container {
+        height: 512px;
+    }
+    .banner-caption {
+        padding-top: 90px;
+    }
+    
+}
+
+
+
+/* ========================Tab====================== */
+@media (max-width: 768px) {
+    .banner-container {
+        height: 450px;
+    }
+    .banner-caption {
+        padding-top: 100px;
+    }
+    .top-banner h1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 32px;
+    }
+    .logo.mr-auto {
+        width: 200px;
+    }
+    .timer {
+        margin-top: 0 !important;
+    }
+
+    .top-banner {
+        height: 180px;
+    }
+    .top-banner:after {
+        width: 140px;
+        height: 178px;
+    }
+
+    .banner-container-2 {
+        height: 550px;
+    }
+    .banner-caption.banner-2 h1 {
+        font-size: 3rem;
+    }
+    .banner-caption.banner-2 {
+        padding-top: 20px;
+    }
+    .banner-2-container {
+        padding: 25px;
+    }
+    .banner-2-container p {
+        font-size: 24px;
+    }
+
+    .page-2 .btn:first-child, .page-2 .btn:last-child {
+        margin: 15px 0 15px 0;
+    }
+}
+
+
+/* ========================Mobile====================== */
+@media (max-width: 576px) {
+    .header-wrapper {
+        padding: 15px 25px;
+    }
+    .header-wrapper .logo {
+        width: 200px;
+        margin: 0 auto;
+    }
+    .header-info {
+        line-height: 1rem;
+        padding: 15px 0 0;
+        margin: 0 auto;
+    }
+    .header-info h3 {
+        font-size: 16px;
+        line-height: 1rem;
+    }
+    .banner-container {
+        height: 275px;
+    }
+    .banner-caption {
+        padding-top: 80px;
+    }
+    .top-banner {
+        height: 180px;
+    }
+    .top-banner h1 {
+        padding: 10px 0px;
+        font-size: 24px;
+    }
+    .banner-caption h1 {
+        font-size: 3rem;
+    }
+    .banner-caption h3 {
+        font-size: 2rem;
+    }
+
+    .login-container .card-header h1 {
+        font-size: 1rem;
+    }
+
+    .login-container .card-header h1 {
+        font-size: 2.5rem;
+    }
+}
+
+
+@media (max-width: 375px) {
+    .card-1 {
+        width: 225px;
+    }
+    .card-2 {
+        width: 275px;
+    }
+    .card-3 {
+        width: 320px;
+    }
+    .bg-img img {
+        width: 100%;
+    }
+
+    .bg-img .text-wrap {
+        font-size: 28px;
+        line-height: 3rem;
+        top: 36px;
+        left: 120px;
+        position: absolute;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+    }
+    .body-container-1 {
+        padding-top: 0;
+    }
+
+    .banner-caption.banner-2 h1 {
+        font-size: 2rem;
+    }
+    .banner-2-container p {
+        font-size: 16px;
+    }
+    .banner-container.banner-container-2 {
+        height: 450px;
+    }    
+}
