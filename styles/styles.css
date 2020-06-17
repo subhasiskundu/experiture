@@ -384,10 +384,10 @@
         line-height: 1rem;
     }
     .banner-container {
-        height: 275px;
+        height: 550px;
     }
     .banner-caption {
-        padding-top: 80px;
+        padding-top: 120px;
     }
     .top-banner {
         height: 180px;
@@ -397,10 +397,10 @@
         font-size: 24px;
     }
     .banner-caption h1 {
-        font-size: 3rem;
+        font-size: 5rem;
     }
     .banner-caption h3 {
-        font-size: 2rem;
+        font-size: 3.5rem;
     }
 
     .login-container .card-header h1 {
