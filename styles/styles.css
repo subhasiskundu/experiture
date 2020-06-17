@@ -429,12 +429,9 @@
 
     .bg-img .text-wrap {
         font-size: 28px;
-        line-height: 3rem;
+        line-height: 2.5rem;
         top: 36px;
         left: 120px;
-        position: absolute;
-        color: #fff;
-        font-family: 'Oswald', sans-serif;
     }
     .body-container-1 {
         padding-top: 0;
@@ -450,3 +447,48 @@
         height: 450px;
     }    
 }
+
+
+/* ========================Extra Small Devivice====================== */
+@media (max-width: 375px) {
+    .card-1 {
+        width: 203px;
+    }
+    .card-2 {
+        width: 247px;
+    }
+    .card-3 {
+        width: 290px;
+    }
+    .bg-img img {
+        width: 100%;
+    }
+
+    .bg-img .text-wrap {
+        font-size: 27px;
+        line-height: 2rem;
+        top: 45px;
+        left: 100px;
+    }
+
+    .bg-img .text-wrap p {
+        padding-left: 10px;
+    }
+    .body-container-1 {
+        padding-top: 0;
+    }
+
+    .banner-caption.banner-2 h1 {
+        font-size: 2rem;
+    }
+    .banner-2-container p {
+        font-size: 16px;
+    }
+    .banner-container.banner-container-2 {
+        height: 450px;
+    }   
+    .top-banner h1 {
+        font-size: 22px;
+    } 
+}
+
